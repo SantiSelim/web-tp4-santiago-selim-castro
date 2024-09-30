@@ -1652,6 +1652,25 @@ z-index: 2;
   margin-bottom: 5px;
   font-size: 16px;
 }
+    .services .service-item .icon {
+  background-color: color-mix(in srgb, #cc1729, transparent 0%);
+  width: 67px;
+  height: 67px;
+  position: relative;
+  margin-right: 15px;
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  border-radius: 50%;
+}
+    .services .service-item .icon i {
+  color: #f7f0e7;
+  font-size: 30px;
+  z-index: 2;
+  position: relative;
+}
 }
 
 /*--------------------------------------------------------------
